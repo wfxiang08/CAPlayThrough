@@ -1,0 +1,4 @@
+*.o
+CAPlayThrough.xcodeproj/project.xcworkspace
+CAPlayThrough.xcodeproj/xcuserdata
+.idea
