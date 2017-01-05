@@ -27,6 +27,10 @@
 		2BE43D05154A070700317EFE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9E52370687AE9C00738FA5 /* AudioToolbox.framework */; };
 		2BE43D06154A070700317EFE /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9E52380687AE9C00738FA5 /* AudioUnit.framework */; };
 		2BE43D07154A070700317EFE /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9E52390687AE9C00738FA5 /* CoreAudio.framework */; };
+		35E4E1B91E1EBD1E003BD94A /* SMPlayThrough.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E4E1B71E1EBD1E003BD94A /* SMPlayThrough.h */; };
+		35E4E1BA1E1EBD1E003BD94A /* SMPlayThrough.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E4E1B71E1EBD1E003BD94A /* SMPlayThrough.h */; };
+		35E4E1BB1E1EBD1E003BD94A /* SMPlayThrough.mm in Sources */ = {isa = PBXBuildFile; fileRef = 35E4E1B81E1EBD1E003BD94A /* SMPlayThrough.mm */; };
+		35E4E1BC1E1EBD1E003BD94A /* SMPlayThrough.mm in Sources */ = {isa = PBXBuildFile; fileRef = 35E4E1B81E1EBD1E003BD94A /* SMPlayThrough.mm */; };
 		8B9E523A0687AE9C00738FA5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9E52370687AE9C00738FA5 /* AudioToolbox.framework */; };
 		8B9E523B0687AE9C00738FA5 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9E52380687AE9C00738FA5 /* AudioUnit.framework */; };
 		8B9E523C0687AE9C00738FA5 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9E52390687AE9C00738FA5 /* CoreAudio.framework */; };
@@ -61,6 +65,8 @@
 		2B9BE3BE17E7E5C200927DE6 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2BD33B6B17E7E7640057C926 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		2BE43D0C154A070700317EFE /* CAPlayThrough.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAPlayThrough.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E4E1B71E1EBD1E003BD94A /* SMPlayThrough.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPlayThrough.h; sourceTree = "<group>"; };
+		35E4E1B81E1EBD1E003BD94A /* SMPlayThrough.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SMPlayThrough.mm; sourceTree = "<group>"; };
 		8B9E52370687AE9C00738FA5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
 		8B9E52380687AE9C00738FA5 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
 		8B9E52390687AE9C00738FA5 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
@@ -113,6 +119,8 @@
 				8B9E54DD0687B72500738FA5 /* AudioDevice.h */,
 				8B9E54A00687B3BC00738FA5 /* AudioDeviceList.cpp */,
 				8B9E54A10687B3BC00738FA5 /* AudioDeviceList.h */,
+				35E4E1B71E1EBD1E003BD94A /* SMPlayThrough.h */,
+				35E4E1B81E1EBD1E003BD94A /* SMPlayThrough.mm */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -214,6 +222,7 @@
 				2BE43CF1154A070700317EFE /* CAPlayThroughController.h in Headers */,
 				2BE43CF2154A070700317EFE /* CAPlayThrough.h in Headers */,
 				2BE43CF3154A070700317EFE /* AudioDevice.h in Headers */,
+				35E4E1BA1E1EBD1E003BD94A /* SMPlayThrough.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +234,7 @@
 				8B9E54B30687B59800738FA5 /* CAPlayThroughController.h in Headers */,
 				8B9E54CF0687B6EB00738FA5 /* CAPlayThrough.h in Headers */,
 				8B9E54DF0687B72500738FA5 /* AudioDevice.h in Headers */,
+				35E4E1B91E1EBD1E003BD94A /* SMPlayThrough.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BE43CFC154A070700317EFE /* main.m in Sources */,
+				35E4E1BC1E1EBD1E003BD94A /* SMPlayThrough.mm in Sources */,
 				2BE43CFD154A070700317EFE /* AudioDeviceList.cpp in Sources */,
 				2BE43CFE154A070700317EFE /* CAPlayThroughController.mm in Sources */,
 				2BE43CFF154A070700317EFE /* CAPlayThrough.mm in Sources */,
@@ -336,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				35E4E1BB1E1EBD1E003BD94A /* SMPlayThrough.mm in Sources */,
 				8B9E54A20687B3BC00738FA5 /* AudioDeviceList.cpp in Sources */,
 				8B9E54B40687B59800738FA5 /* CAPlayThroughController.mm in Sources */,
 				8B9E54D00687B6EB00738FA5 /* CAPlayThrough.mm in Sources */,
